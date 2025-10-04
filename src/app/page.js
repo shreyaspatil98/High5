@@ -1,8 +1,10 @@
+import Navbar from '@/components/Navbar';
 import PublicationsList from '../components/PublicationsList';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
+      <Navbar/>
       <PublicationsList />
     </main>
   );
