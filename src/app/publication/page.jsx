@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/app/page.js
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -5,6 +6,9 @@ import Navbar from "../components/Navbar";
 import PublicationsList from "../components/PublicationsList";
 import ParticleBackground from "../components/ParticleBackground";
 import Footer from "../components/Footer"; // <-- import Footer
+=======
+import PublicationsList from '../../components/PublicationsList';
+>>>>>>> 70ffcf172bd76b8498c4f3d6bf5c4aefb44dae25:src/app/publication/page.jsx
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
