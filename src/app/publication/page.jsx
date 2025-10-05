@@ -1,4 +1,4 @@
-import PublicationsList from '../components/PublicationsList';
+import PublicationsList from '../../components/PublicationsList';
 
 export default function Home() {
   return (
